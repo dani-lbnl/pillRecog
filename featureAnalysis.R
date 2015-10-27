@@ -1,12 +1,12 @@
-#Processing the features from FindPill_v9.ijm
+#Processing the features from FindPill_ISVC2015.ijm
 #Dani Ushizima - dani.lbnl@gmail.com
 #
 
 require(gdata)
 
 #my outputs from the image processing
-pathOutput = "/Users/ushizima/Dropbox/aqui/BIDS/projects/NIH_PIL/pir-challenge/tests/edgeseg/feat/";
-pathConsolidated = "/Users/ushizima/Dropbox/aqui/BIDS/projects/NIH_PIL/pir-challenge/tests/edgeseg/";
+pathOutput = "/Users/ushizima/pill/test/feat/";
+pathConsolidated = "/Users/ushizima/pill/";
 listOfFiles = list.files(pathOutput,pattern="xls");
 
 #concatenate all the measurements in a single file and add filename as the last column
