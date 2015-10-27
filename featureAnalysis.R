@@ -1,4 +1,4 @@
-#Processing the features from FindPill_v9.ijm
+#Processing the features from FindPill_ISVC2015.ijm
 #Dani Ushizima - dani.lbnl@gmail.com
 #
 
