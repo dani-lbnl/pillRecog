@@ -15,11 +15,11 @@
  */
 macro "FindPill"{
 
-	machine = "/Users/dani/Dropbox/AQUI/BIDS/"; 
-	outputPath = machine+"projects/NIH_PIL/pir-challenge/tests/edge_oct/";  //"/Users/ushizima/Dropbox/aqui/BIDS/projects/nih_pil/fiji/";	
+	machine = "/Users/ushizima/pill/"; 
+	outputPath = machine+"test/";  //"/Users/ushizima/Dropbox/aqui/BIDS/projects/nih_pil/fiji/";	
 	File.makeDirectory(outputPath);
 	File.makeDirectory(outputPath+"feat");
-	inputdir = machine+"projects/NIH_PIL/pir-challenge/dr/";
+	inputdir = machine+"pir-challenge/dr/";
 	FileList = getFileList(inputdir);
 
 	//setBatchMode(true);
