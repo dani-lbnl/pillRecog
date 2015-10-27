@@ -5,7 +5,7 @@
 require(gdata)
 
 #my outputs from the image processing
-pathOutput = "/Users/ushizima/pill/feat/";
+pathOutput = "/Users/ushizima/pill/test/feat/";
 pathConsolidated = "/Users/ushizima/pill/";
 listOfFiles = list.files(pathOutput,pattern="xls");
 
